@@ -8,28 +8,40 @@
     <title>Ashton's Magic Number Game!</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="text/javascript" href="./assets/javascript/game.js">
 
-</head>
-	<body>
-		<div id="gameInstructions">
-            <h1>Ashton's Magic Number Game!</h1>
-            <p>Beat the computer in this number game by choosing a number between 1 and 20. You will have 3 chances to guess the correct number. Whoever earns 3 points first wins.</p>
-            <p>Have fun and good luck!</p>
-            <br>
-			<div id="statusArea">
-				<p>Please enter a number between 1-20 and click the 'Submit' button</p>
-			</div>
-			<input type="number" id="userGuess"/>
-			<div id="submitButton" class="button">
-				Submit
-			</div>
-			<div id="scoreBoard">
-                <h2>Remaining Guesses</h2>
-				<h2>User Score</h2>
-				<h2>Computer Score</h2>
-			</div>
-		</div>
-	</body>
+</head> 
+
+<body>
+
+    <div id="gameInstructions">
+        <h1>Ashton's Magic Number Game!</h1>
+        <p>Beat the computer in this number game by choosing a number between 1 and 20. You will have 3 chances to guess
+            the correct number. Whoever earns 3 points first wins.</p>
+        <p>Have fun and good luck!</p>
+    </div>
+
+    <br>
+
+    <div id="statusArea">
+        <p>Please enter a number between 1-10 and click the 'Submit' button</p>
+    </div>
+
+    <input type="number" id="userGuess" id="computerNumber">
+
+    <div id="submitButton" class="button">
+        <input type="submit"  value="Submit">
+    </div>
+
+    <div id="scoreBoard">
+        <h2>Remaining Guesses</h2>
+        <h2>User Score</h2>
+        <h2>Computer Score</h2>
+    </div>
+    </div>
+    </body>
+
 </html>
