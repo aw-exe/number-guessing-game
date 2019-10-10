@@ -25,13 +25,22 @@ document.onkeyup = function (event) {
   } if (userGuess == computerNumber) {
     wins++
     result.innerHTML = 'You Got It Right!!';
-  }
+  }    
+}
+
+// --- I tried to set rounds in the game to 5, but the alert kept generating when I would open the webpage. --- //
+//   let UserTries = setInterval(5);{
+//   if (UserTries > 5);
+//   alert("GAME OVER");
+//   document.location.reload();
+//   clearInterval(interval);
+// }
 
 
   winsText.textContent = "wins: " + wins;
   lossesText.textContent = "losses: " + losses;
   triesText.textContent = "tries: " + tries;
 
-}
+
 
 
