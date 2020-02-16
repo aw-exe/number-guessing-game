@@ -4,6 +4,8 @@ This was my second assignment of the boot camp, we were to build a number guessi
 
 ## Deployment
 
+Click on link below to open in your browser.
+
 https://aw-exe.github.io/number-guessing-game/
 
 ## Built With
